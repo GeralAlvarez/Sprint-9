@@ -1,0 +1,42 @@
+// ORDEN DESDE CERO FRONT A END
+
+front---------- 
+
+1/npm install vite@latest 
+2/npm install
+3/npm run dev
+4/npm install axios ------ y tengo que importarla en una carpeta API en src, que se llame en un archivo que se llama APIrules
+
+
+back-----------
+
+1/npm init
+2/npm install
+3/npm install knex 
+4/npm install pg
+5/npm install nodemon   ------   crear archivo index.js vacio    -----agregar script en package.json  "start": "nodemon index.js"
+6/npm install express
+7/npm install dotenv
+8/npm install body-parser // no se necesita mas si se usa express
+9/npm install bcryptjs  ---------  libreria para encriptar passwords 
+10/npm install jsonwebtoken ------ libreria para hacer un JWT (jason web token):
+11/npm install morgan ------- app.use(morgan);
+12/npm install cors ----- app.use(cors());
+
+
+//////////// Hacer en back////////////
+
+1/ carpetas --  routes/controllers/config
+2/ dentro de routes, se hacen las rutas que son llamadas en el index.js
+3/ dentro de controllers, se hacen las funciones que son llamadas en el routes
+4/ dentro de config, se hace el archivo knexfile.js
+
+
+//////////// Hacer en front////////////
+
+1/ crear carpeta API dentro de src
+2/ dentro de la carpeta API se crea rule_API.jsx, para conectar el axios front-back
+3/ tambien dentro de la carpeta API se crean archivos para conectar los endpoints con los elementos del front
+
+
+para aplicar las funciones del back en el front, se deben realizar funciones en el archivo API_"necesidad".
